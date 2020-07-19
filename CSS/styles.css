@@ -110,20 +110,23 @@ img {
 
 .block img {
     padding: 4rem 3rem 3rem 3rem;
+    width: 100%;
 }
 
 .block-text {
-    width: 20rem;
     margin-bottom: 5rem;
+    padding: 2rem;
 }
 
 .block-text h1 {
     padding: 2rem;
     white-space: nowrap;
+    width: 100%;
 }
 
 .block-text p {
     color: hsl(208, 11%, 55%);
+    padding: 0 1.5rem;
 }
 
 
@@ -146,7 +149,7 @@ img {
 .build-container{
     box-shadow: 3px 5px 15px rgba(0,0,0.4,0.1);
     border-radius: 16px;
-    padding: 3rem;
+    padding: 3rem 0;
     background-color: #fff;
     position: absolute;
     width: 90vw;
@@ -156,7 +159,6 @@ img {
     white-space: nowrap;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
-    height: 100%;
     width: 100%;
     text-align: center;
 }
